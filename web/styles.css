@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .app {
+    /* height: 100vh; */
+  }
+
+   
+  .container {
+    position: relative;
+    flex: 1;
+    height: 100%;
+    background: plum;
+  }
+  .header {
+    height: 60px;
+    background: #ccc;
+    text-align: center;
+    color: #fff;
+    font-size: 30;
+    line-height: 60px;
+    font-weight: 700;
+
+  }
+
+  
+  .block {
+    display: flex;
+    height: 100%;
+  }
+  
+  .sidebar {
+    width: 180px;
+    height: 100%;
+    background: pink;
+    padding: 8px;
+    min-height: 100vh;
+  }
+  
+  .sidebar .heading {
+    padding: 8px;
+    font-size: 30px;
+    border-bottom: 2px solid black;
+  }
+  
+  .sidebar .content {
+    padding: 8px;
+    font-size: 20px;
+  }
+  
+  .container {
+    height: 100%;
+    position: relative;
+  }
+  .container .content {
+    flex: 1;
+    position: relative;
+  }
+  
+  .category {
+    height: 60px;
+    background: #000;
+  }
+  
+  #menu{
+    padding:10px;
+    background-color: #df6565;
+    display: inline-block;}
+#menu li{
+        display: inline-block;
+        padding: 30px;
+        padding:10px}
+
+#menu li:hover{
+            background: orange;
+
+        }
+#menu li a{
+        color: whitesmoke;
+        text-decoration: one;
+    }
+#menu2{
+    display: none;
+ 
+}
+#menu2 li{
+    background-color: aqua;
+    width: 104px;
+
+}
+  
+  /* content */
+  
+  .content {
+    padding-left: 20px;
+  }
+  
+  .content-block {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  .content-block div:last-child {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    color: white;
+  }
+  
+  .image-block {
+    width: 250px;
+    height: 150px;
+    padding-right: 20px;
+  }
+  .image {
+    width: 100%;
+    height: 100%;
+  }
+  .heading {
+    font-size: 30px;
+  }
+  .title {
+    font-size: 20px;
+  }
+  .content-right {
+    width: 230px;
+    height: 100%;
+    background: rgb(161, 218, 213);
+    min-height: 100vh;
+  }
+  
+  .content-right .circle {
+    width: 150px;
+    height: 150px;
+    margin: 24px auto;
+    border-radius: 50%;
+    padding: 20px;
+    border: 2px solid #000;
+  }
+  
+  .text {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+  }
